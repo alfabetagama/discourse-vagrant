@@ -106,3 +106,6 @@ To run the spec:
 
 Putty is not needed here, but otherwise could probably work with minor modifications and a sudo here and there
 
+## License
+
+WTFPL

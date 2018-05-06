@@ -44,9 +44,9 @@ export NVM_DIR="$HOME/.nvm"
 cd apps/discourse
 # move tmp outside of share. See https://github.com/rails/sprockets/issues/283
 sudo rm -rf tmp
-sudo mkdir /tmp/rails-app
-sudo chmod 0777 /tmp/rails-app
-sudo ln -s /tmp/rails-app tmp
+sudo mkdir /home/vagrant/rails-app-tmp
+sudo chmod 0777 /home/vagrant/rails-app-tmp
+sudo ln -s /home/vagrant/rails-app-tmp tmp
 
 nvm install node
 nvm alias default node
